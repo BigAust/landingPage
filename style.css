@@ -1,7 +1,7 @@
 header {
    display: flex;
    text-decoration: none;
-   background-color:gray;
+   background-color:rgb(26, 26, 169);
    
 }
 header ul{
@@ -15,9 +15,21 @@ header a{
 }
 header img{
     height: 300px;
-    width: 400px;
 }
+
 .text{
     color: white;
     
+}
+.second{
+    display: flex;
+
+}
+.second h2{
+    text-align: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
 }
