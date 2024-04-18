@@ -1,19 +1,23 @@
-header{
+header {
    display: flex;
-   flex-direction: row;
-   text-align: right;
    text-decoration: none;
    background-color:gray;
    
 }
 header ul{
 list-style-type: none;
+color: white;
 
 }
 header a{
     text-decoration: none;
+    color: white;
 }
 header img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 400px;
+}
+.text{
+    color: white;
+    
 }
