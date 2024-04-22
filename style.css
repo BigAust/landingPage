@@ -1,7 +1,7 @@
 header {
    display: flex;
    text-decoration: none;
-   background-color:rgb(26, 26, 169);
+   background: #1F2937;;
    
 }
 header ul{
@@ -16,7 +16,19 @@ header a{
 header img{
     height: 300px;
 }
+header h2{
+    font-size: 24px;
+    
+}
+header button{
+    background-color: #3882F6;
+    color: white;
+}
 
+header h1{
+    font-size: 48px;
+    color: #F9FAF8;
+}
 .text{
     color: white;
     
