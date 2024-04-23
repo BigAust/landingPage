@@ -9,9 +9,7 @@ padding: 10px;
 
 .header nav ul {
     display: flex;
-    flex-direction: row;
     list-style: none; 
-    justify-content: end;
   }
 
 .header nav ul li {
@@ -24,4 +22,39 @@ padding: 10px;
 
 .header nav h2{
     margin-top: 10px;
+}
+.sub-header *{
+    display: flex;
+    padding: 10px;
+}
+
+.sub-header h1{
+    font-size: 48px;
+    color: white;
+    margin-top: 20px;
+    
+    
+}
+
+.sub-header button a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub-header button{
+    background-color: #3882f6;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.boxes p{
+  width: 200px; 
+  height: 200px; 
+  background-color: #f0f0f0;
+  border: 2px solid #333; 
+  padding: 20px; 
+  margin: 10px; 
 }
