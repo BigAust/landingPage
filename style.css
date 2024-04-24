@@ -4,7 +4,7 @@ color: white;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 10px;
+
 }
 
 .header nav ul {
@@ -31,9 +31,7 @@ padding: 10px;
 .sub-header h1{
     font-size: 48px;
     color: white;
-    margin-top: 20px;
-    
-    
+ 
 }
 
 .sub-header button a{
@@ -45,16 +43,50 @@ padding: 10px;
     background-color: #3882f6;
 }
 
-.boxes {
-  display: flex;
-  justify-content: space-around; 
+.body{
+  margin: 20px;
 }
 
-.boxes p{
-  width: 200px; 
-  height: 200px; 
-  background-color: #f0f0f0;
-  border: 2px solid #333; 
-  padding: 20px; 
-  margin: 10px; 
+.boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+  border-color: #3882f6;
+  margin-bottom: 50px;
+}
+
+.box p {
+  position: absolute; 
+  bottom: -55px; 
+  left: 0;
+  right: 0;
+  text-align: center;
+
+}
+
+.sub-body{
+  
+  margin-top: 20px;
+}
+.sub-body {
+  color: #E5E7EB;
+}
+
+.sub-body p{
+  font-size: 36px;
+  margin: 150px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
