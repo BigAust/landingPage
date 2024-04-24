@@ -37,6 +37,7 @@ justify-content: space-between;
 .sub-header button a{
     color: white;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 .sub-header button{
@@ -89,4 +90,9 @@ footer{
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+footer button{
+  border-radius: 10px;
 }
